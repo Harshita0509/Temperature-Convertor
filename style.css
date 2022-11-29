@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+form{
+    background-color: whitesmoke;
+    width: 50%;
+    height: 300px;
+    margin-top: 220px;
+    margin-left: 390px;
+    text-align: center;
+    box-shadow: 20px 20px 6px -6px #777;
+    border: solid 0.2px;
+}
+#tempcalc{
+    align-items: center;
+    font-size: larger;
+}
+label{
+    font-size: larger;
+    padding: 50px;
+}
+#temp {
+     font-size: 17px;
+}
+#temp_diff{
+    font-size: 17px;
+}
+[type="submit"]{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 70px;
+    font-size: 17px;
+}
+#resultContainer{
+    font-size: 20px;
+}
